@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-black: #000000;
+    --secondary-color: #7D7D7D;
+    --font-size: 70px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+p,
+a {
+    color: var(--primary-black);
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+section {
+    padding-top: 80px;
+}
+
+img {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: var(--font-size);
+}
